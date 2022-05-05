@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>switch case-strings</title>
+</head>
+<body>
+    <h1>Switch case with Strings</h1>
+
+    <script>
+       
+       var expr=prompt("Enter a Car to know the price:");
+       
+  switch (expr) {
+  case 'Lamborghini':
+    document.write('Lamborghini costs $10000.50 pound.');
+    break;
+  case 'Buggati':
+    document.write('Buggati costs $7000.32  pound.');
+    break;
+  case 'Mercedes':
+    document.write('Buggati costs $7000.32  pound.');
+    break;
+
+    case 'Audi':
+  case 'Volkswagen':
+    document.write('Audi and Volkswagen costs $5000.55 pounds.');
+  default:
+    document.write('Sorry, we are out of ' + expr + '.');
+}
+ 
+document.write("Is there anything else you'd like?");
+
+       </script>
+</body>
+</html>
